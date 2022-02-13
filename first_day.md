@@ -12,6 +12,8 @@ git add filename
 
 # 提交仓库
 git commit -m 'first commit'
+# 直接提交
+git commit -am 'commit'
 
 # 文件重命名
 git mv src_filename des_filename
