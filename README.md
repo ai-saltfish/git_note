@@ -1,2 +1,1 @@
-# MyProject
-this is a first commit
+this is my note for git
