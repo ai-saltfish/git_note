@@ -34,11 +34,16 @@ blob：文件内容，文件内容一致时为同个blob
 
 # head和branch
 
-# 新建分支
-git checkou -b dev
+# 新建分支并切换
+git checkou -b dev 19c411f8575dd60f6459cce7a0a00cf3f72eb8dd
 
 # 切换分支
 git checkout master/dev
 
 # 查看分支
 git branch -a
+
+# 比较commit之间的差异
+git diff commit1 commit2
+# 当前HEAD与HEAD上次commit对比
+git diff HEAD HEAD^
