@@ -27,5 +27,18 @@ git log -n2
 # 查看所有分支图形化日志
 git log --all --graph
 
-# 
+# commit、tree、blob之间的关系
+commit：提交历史
+tree：提交的文件夹，每个文件夹都是一个tree
+blob：文件内容，文件内容一致时为同个blob
 
+# head和branch
+
+# 新建分支
+git checkou -b dev
+
+# 切换分支
+git checkout master/dev
+
+# 查看分支
+git branch -a
