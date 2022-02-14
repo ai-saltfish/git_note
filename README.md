@@ -1,1 +1,1 @@
-this is my note for git
+this is my notebook for git
