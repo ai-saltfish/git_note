@@ -31,3 +31,26 @@ git restore --staged file
 
 # 消除最近的几次提交
 git reset --hard commit_hash
+
+# 比较commit之间的差异
+git diff commit_hash commit_hash -- .
+
+# 正确删除文件
+git rm -rf file
+
+# 将工作区暂时恢复成暂存区
+git stash
+
+# 恢复暂时存放文件
+git stash apply
+git stash pop
+
+# 指定不需要git管理的文件，gitignore里的内容与文件名相同时文件不会被git管控
+vim .gitignore
+
+# 备份git仓库到本地
+git clone --bare file:///git_repo.git backup.git
+
+# 同步远端仓库
+git remote add/rm origin  git@github.com:wjamx/MyProject.git
+git push origin
