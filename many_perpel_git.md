@@ -1,9 +1,12 @@
 # 不同的人修改了不同文件处理
 git fetch github
-git merge github
-git push github
+git merge github/master
+git push github master
 
 # 不同的人修改了同一文件的不同区域
+git fetch github
+git merge github/master
+git push github master
 
 # 不同的人修改了同一文件的同一区域
 
