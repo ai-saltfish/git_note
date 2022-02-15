@@ -15,5 +15,12 @@ git merge github/dev
 git push github master
 
 # 同时变更文件名和文件内容处理
+git pull github master
+git push github master
 
 # 把同一文件改成不同文件名处理
+需修改人员协商确定文件名
+
+# 禁止向集成分支执行push -f 操作
+
+# 禁止向集成分支执行变更历史操作
